@@ -1,7 +1,10 @@
 <html>
 <body>
 
-<?php echo 'Hello $_POST["name"]'; ?>
+<?php 
+      $msg = "Hello " . $_POST["name"];
+      echo $msg; 
+?>
 <br>
 </body>
 </html> 
